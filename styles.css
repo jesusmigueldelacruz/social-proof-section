@@ -1,0 +1,140 @@
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Spartan", sans-serif;
+}
+header {
+  text-align: center;
+  padding: 50px 13px 15px;
+  background-image: url("./images/bg-pattern-top-mobile.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+header h1 {
+  color: var(--Very-Dark-Magenta);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+header p {
+  font-size: 1.5rem;
+  color: var(--Dark-Grayish-Magenta);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.rating {
+  width: 100%;
+  min-width: 320px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+.rated {
+  background-color: var(--Light-Grayish-Magenta);
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  width: 90%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+}
+.stars {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.stars img {
+  margin: 0px 4px;
+}
+.reviews {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.reviews p {
+  text-align: center;
+  color: var(--Very-Dark-Magenta);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.buyers {
+  width: 100%;
+  min-width: 320px;
+  margin-top: 30px;
+}
+.buyer-person {
+  margin: 0 auto;
+  width: 90%;
+  min-height: 100px;
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 14px;
+}
+.profile {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: right;
+}
+.photo-buyer {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.name-situation-container {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.name-buyer {
+  color: var(--White);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.situation-buyer {
+  color: var(--Soft-Pink);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.opinion {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
